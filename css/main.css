@@ -1,0 +1,437 @@
+@font-face {
+    font-family: Avenir-Book;
+    src: url('../fonts/Avenir/AvenirLTStd-Book.otf'); 
+}
+@font-face {
+    font-family: Avenir-Light;
+    src: url('../fonts/Avenir/AvenirLTStd-Light.otf'); 
+}
+@font-face {
+    font-family: Avenir-Medium;
+    src: url('../fonts/Avenir/AvenirLTStd-Medium.otf'); 
+}
+@font-face {
+    font-family: Avenir-Roman;
+    src: url('../fonts/Avenir/AvenirLTStd-Roman.otf'); 
+}
+@font-face {
+    font-family: Avenir-Black;
+    src: url('../fonts/Avenir/Avenir Black.otf'); 
+}
+@font-face {
+    font-family: Avenir-Heavy;
+    src: url('../fonts/Avenir/Avenir Heavy.otf'); 
+}
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0px; 
+    padding: 0px; 
+    font-family: Avenir-Medium, sans-serif;
+  font-weight: 400;
+}
+h2{
+    font-family: Avenir-Heavy, sans-serif;
+}
+.logo{
+    height: 35px;
+}
+.navbar-default{
+    border-color: #fff;
+}
+.navbar-brand{
+  padding-top: 10px;
+}
+.navbar-right{
+    margin: 0px;
+}
+.fhsco-navbar{
+    background-color: #fff;
+}
+header{
+    background-image: url("../imgs/bike-business-man.jpg");
+    background-size: cover;
+}
+.navbar{
+    border-radius: 0px;
+    min-height: 60px;
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+.navbar-nav li{
+    font-size: 13px;
+    margin-top: 6px;
+}
+.navbar-nav li a{
+  color: #000;
+
+}
+.navbar-nav li button{
+    margin-top: 8px;
+    font-size: 13px;
+    background-color: #59017d;
+    color: #fff;
+    border-color: transparent;
+    transition: all 0.8s;
+}
+.navbar-nav li button:hover{
+    background-color: #36034b;
+}
+.fhsco-bigtrumpodrum{
+    padding: 200px 150px 136px;
+    
+}
+.fhsco-background p{
+    color: #fff;
+    width: 350px;
+    padding-top: 10px;
+    font: 400 1em/1.3em "Avenir-Medium", "Roboto", Helvetica, Chiller, sans-serif;
+}
+.fhsco-background h1{
+    font-size: 2.7em;
+    color: #fff;
+}
+.fhsco-background .input-group input{
+    width: 280px;
+    height: 45px;
+    border-radius: 0px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.fhsco-background .input-group button{
+    border-radius: 0px;
+    background-color: #59017d;
+    border-color: #59017d;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 100px;
+    font-size: .9em;
+    transition: all 0.8s;
+}
+.fhsco-background .input-group button:hover{
+    background-color: #36034b;
+    border-color: #000;
+}
+.fhsco-fullprocedures{
+    margin-bottom:50px; 
+}
+.fhsco-background .input-group{
+    display: flex;
+}
+.fhsco-mainbody{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.fhsco-talent-fulldiv{
+    padding-top: 40px;
+}
+.fhsco-talent-pictures{
+    height: 60px;
+    margin-bottom: 30px;
+}
+.fhsco-whichpeople{
+    font-size: 12px;
+}
+.fhsco-buttondiv{
+    width: 210px;
+    margin: 0 auto;
+}
+.fhsco-buttondiv button{
+    border: none;
+    margin-top: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 9px;
+    padding-right: 9px;
+    width: 190px;
+    background-color: #59017d;
+    color: #fff;
+    font: 100 11px/12px "Avenir-Medium", "Roboto", Helvetica, Chiller, sans-serif;
+}
+.fhsco-secondmain{
+    padding-top: 60px;
+    padding-bottom:60px;
+    background-color: #efefef;
+}
+h3{
+    font-size: 34px;
+    font-weight: 300;
+    text-align: center;
+    color: #3d3d3d;
+}
+.fhsco-works-pictures1{
+    width: 150px;
+}
+.fhsco-works-pictures2{
+    width: 90px;
+}
+.fhsco-works-pictures3{
+    width: 120px;
+}
+.fhsco-works-procedures{
+    margin-top: 0px;
+    font-size: 14px;
+}
+.fhsco-howitworks{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.fhsco-thirdmain{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.fhsco-quotes-img{
+    width: 80px;
+    margin: 0 auto;
+}
+.fhsco-quotes-img img{
+    width: 41px;
+}
+.fhsco-steps{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fhsco-testimonial{
+    font-size: 26px;
+    font-weight: 200;
+    margin: 0 auto;
+    text-align: center;
+    color: #494949;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.fhsco-peopletest-div1{
+    display: flex;
+    background-color: #fff;
+    opacity: 0.3;
+    float: right;
+}
+.fhsco-peopletest-div2{
+    display: flex; 
+    float: right;
+}
+.fhsco-peopletest-div3{
+    display: flex;
+    background-color: #fff;
+    opacity: 0.3;
+    float: left;
+}
+.fhsco-testimonial-pictures{
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.fhsco-fullprofile{
+    margin-top: 80px;
+}
+
+.fhsco-peoplesname{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.fhsco-peoplesname p:first-child{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.footer{
+    background-color: #59017d;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 40px;  
+}
+.spd-col-6{
+    width: 40%;
+}
+.fhsco-footer-text{
+    text-align: left;
+}
+h4{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.fhsco-footer-text p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.fhsco-footer-button{
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 50%;
+}
+.fhsco-footer-button button{
+   width: 180px;
+   border: none;
+   height: 36px;
+   background-color: transparent;
+   border: 1px solid #fff;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 20px;
+   transition: all 0.8s;
+}
+.fhsco-footer-button button:hover,.fhsco-footer-button button:focus{
+    background-color: #36034b;
+    border: 1px solid #000;
+}
+footer{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-social{
+    width: 230px;
+    margin: 0 auto;
+}
+.footer-social ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-mgs{
+    margin-left: 20px;
+    height: 26px;
+    width: 26px;
+}
+.footer-list{
+    width: 560px;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+.footer-list ul{
+    display: flex;
+    list-style-type: none;
+}
+.footer-list ul li{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.list-with-border{
+    border-left: 1px solid #59017d;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 20px;
+}
+/*======= About Page =======*/
+.absco-header{
+    background-image: url("../imgs/Otherback.jpg");
+    background-size: cover;
+}
+.absco-wordback{
+    padding-top: 200px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.absco-wordback h1{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 300;
+}
+.absco-wordback p{
+    text-align: center;
+    color: #efefef;
+}
+.absco-sidebar-container{
+    padding: 0px;
+}
+.absco-sidebar-row{
+    padding: 0px;
+}
+.absco-sidebar-column{
+    padding: 0px;
+}
+.absco-firstcolumn{
+    text-align: left;
+    padding: 80px 80px;
+}
+.absco-firstcolumn h2{
+    font-family: Avenir-Black, sans-serif;
+}
+.absco-firstcolumn p{
+    font: 100 15px/19px "Avenir-Medium", "Roboto", Helvetica, Chiller, sans-serif;
+}
+/* ================ End Of About Page ==================*/
+@media(min-width:1400px){
+    header{
+        height: 750px;
+    }
+}
+@media(max-width:1300px){
+    header{
+        height: 550px;
+    }
+}
+@media(max-width:992px){
+    .fhsco-footer-button{
+        margin: 0 auto;
+    }
+    .fhsco-peopletest-div1{
+        float: none;
+    }
+    .fhsco-peopletest-div2{
+        float: none;
+    }
+    .fhsco-peopletest-div3{
+        float: none;
+    }
+    .fhsco-footer-text{
+        text-align: center;
+    }
+    .fhsco-peopletest-div1{
+        padding-bottom: 20px;
+    }
+    .fhsco-peopletest-div2{
+        padding-bottom: 20px;
+    }
+    .fhsco-peopletest-div3{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:800px){
+    header{
+        height: 450px;
+    }
+}
+@media(max-width:767px){
+    .navbar-nav li button{
+        margin-left:10px;
+    }
+}
+@media(max-width:602px){
+    .fhsco-bigtrumpodrum{
+        padding: 200px 20px;
+    }
+}
+@media(max-width:617px){
+    .footer-list ul{
+       float: right;
+       display: block;
+    }
+    .footer-list ul li{
+        float: left;
+     }
+     .footer-list{
+        display: inline;
+        width:0px;
+    }
+    .fhsco-background p{
+        width: 100%;
+    }
+    .fhsco-howitworks{
+        padding-left: 10px;
+    }
+}
