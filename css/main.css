@@ -32,11 +32,11 @@ body, html {
     height: 100%;
     margin: 0px; 
     padding: 0px; 
-    font-family: Avenir-Medium, sans-serif;
+    font-family: "Avenir-Medium", sans-serif;
   font-weight: 400;
 }
 h2{
-    font-family: Avenir-Heavy, sans-serif;
+    font-family: "Avenir-Heavy", sans-serif;
 }
 .logo{
     height: 35px;
@@ -52,9 +52,10 @@ h2{
 }
 .fhsco-navbar{
     background-color: #fff;
+    box-shadow: 0 0 10px rgba(63, 78, 100, 0.25);
 }
 header{
-    background-image: url("../imgs/bike-business-man.jpg");
+    background: url("../imgs/bike-business-man.jpg");
     background-size: cover;
 }
 .navbar{
@@ -245,11 +246,8 @@ h3{
 .footer{
     background-color: #59017d;
     color: #fff;
-    padding-bottom: 30px;
-    padding-top: 40px;  
-}
-.spd-col-6{
-    width: 40%;
+    padding-bottom: 45px;
+    padding-top: 45px;  
 }
 .fhsco-footer-text{
     text-align: left;
@@ -270,7 +268,7 @@ h4{
 .fhsco-footer-button button{
    width: 180px;
    border: none;
-   height: 36px;
+   height: 40px;
    background-color: transparent;
    border: 1px solid #fff;
    color: #fff;
@@ -328,7 +326,7 @@ footer{
 }
 /*======= About Page =======*/
 .absco-header{
-    background-image: url("../imgs/Otherback.jpg");
+    background: url("../imgs/Otherback.png");
     background-size: cover;
 }
 .absco-wordback{
@@ -343,7 +341,8 @@ footer{
 }
 .absco-wordback p{
     text-align: center;
-    color: #efefef;
+    font-family: "Avenir-Light", sans-serif;
+    color: #c4c4c4;
 }
 .absco-sidebar-container{
     padding: 0px;
@@ -359,12 +358,300 @@ footer{
     padding: 80px 80px;
 }
 .absco-firstcolumn h2{
-    font-family: Avenir-Black, sans-serif;
+    font-family: "Avenir-Black", sans-serif;
 }
 .absco-firstcolumn p{
     font: 100 15px/19px "Avenir-Medium", "Roboto", Helvetica, Chiller, sans-serif;
 }
 /* ================ End Of About Page ==================*/
+
+/* =============== How It Works (Brand) Page =============== */
+.Hitbsco-header{
+    background: #fff;
+}
+.Hitbsco-BigDiv{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.Hitbsco-BigDiv h1{
+    text-align: center;
+}
+.Hitbsco-BigDiv p {
+    text-align: center;
+}
+.Hitbsco-options{
+    width: 301px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:46px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.Hitbsco-options-forbrands{
+  padding: 10px;
+  padding-bottom: 0px;
+  border-bottom: 4px solid #36034b;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.Hitbsco-options-forbrands p{
+   color: #36034b;
+}
+.Hitbsco-options-fortalents{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+  margin-left: 10px;
+}
+.Hitbsco-options-fortalents p{
+    color: #000;
+ }
+ .Hitbsco-mainbody{
+     padding-top: 60px;
+    background-color: #efefef;
+ }
+ .Hitbsco-mainbody h2{
+    font-family: Avenir-Medium, sans-serif;
+ }
+ .Hitbsco-mainbody p{
+    font-family: Avenir-Light, sans-serif;
+    color: #3d3d3d;
+    font-weight: 100;
+ }
+ .Hitbsco-allbody{
+     padding-bottom: 80px;
+ }
+ .Hitbsco-imgdiv{
+     width: 170px;
+     margin: 0 auto;
+ }
+ .hitbsco-img1{
+     margin-top: 20px;
+     width: 200px;
+ }
+ .hitbsco-img2{
+    margin-top: 20px;
+    width: 140px;
+}
+.hitbsco-img3{
+    margin-top: 20px;
+    width: 170px;
+}
+/* ================ End of How It Works (Brand) Page ==================*/
+
+/* =============== How It Works (Talents) Page =============== */
+.Hittsco-footer{
+    background-color: #D1AA67;
+    color: #fff;
+    padding-bottom: 45px;
+    padding-top: 45px;  
+}
+.Hittsco-footer h4{
+    color: #000;
+}
+.Hittsco-footer-button button{
+    width: 180px;
+    border: none;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 12px;
+    margin-top: 20px;
+    transition: all 0.8s;
+ }
+ .Hittsco-footer-button button:hover,.Hittsco-footer-button button:focus{
+     background-color: rgb(155, 107, 23);
+     border: 1px solid #000;
+ }
+ .Hittsco-footer-button{
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 50%;
+}
+.Hittsco-options-forbrands{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .Hittsco-options-forbrands p{
+     color: #000;
+  }
+  .Hittsco-options-fortalents{
+      padding: 10px;
+      padding-bottom: 0px;
+      border-bottom: 4px solid #D1AA67;
+      margin-right: 10px;
+    margin-left: 10px;
+  }
+  .Hittsco-options-fortalents p{
+      color: #D1AA67;
+   }
+/* ================ End of How It Works (Talents) Page ==================*/
+/* =============== Get In Touch Page =============== */
+
+.Gitsco-header{
+    background: url("../imgs/Otherback.png");
+    background-size: cover;
+}
+.Gitsco-BigDiv{
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.Gitsco-BigDiv p{
+   text-align: center;
+   color: #c4c4c4;
+   font-size: 14px;
+   font-family: "Avenir-Light", sans-serif;
+}
+.Gitsco-BigDiv h1{
+    text-align: center;
+    color: #fff;
+ }
+ .Gitsco-mainbody .container-fluid{
+     padding: 0px;
+ }
+ .Gitsco-mainbody .col-md-6{
+     padding: 0px;
+ }
+ .Gitsco-mainbody .Gitsco-form{
+    padding: 80px;
+ }
+ .Gitsco-mainbody .Gitsco-location{
+    padding: 130px 50px 171px;
+    background: #D1AA67;
+}
+
+.Gitsco-mainbody h2{
+    font-size: 30px;
+    color: #000;
+    font-family: "Avenir-Medium", sans-serif;
+}
+.Gitsco-mainbody p{
+    border-bottom: 1px solid #000;
+}
+.Gitsco-place{
+    border-bottom: 0px solid #000 !important;
+}
+.Gitsco-underlined1{
+    width: 120px;
+}
+.Gitsco-underlined2{
+    width: 180px;
+}
+.Gitsco-form{
+    padding-bottom: 100px;
+    background-color: #efefef;
+}
+.Gitsco-form .input-group{
+    display: flex;
+    margin-bottom: 40px;
+}
+.Gitsco-form-input{
+    margin-left: 10px;
+    border-radius: 0px;
+    color:#c4c4c4;
+    font-size: 13px;
+    font-family: "Avenir-Light", sans-serif;
+    border: none;
+    border-color: #efefef;  
+    background-color: #efefef; 
+    box-shadow: none;
+    border-bottom: 1px solid #9b9797;
+    transition: all 0.8s;
+}
+.Gitsco-form-input:hover{
+    border-bottom: 1px solid #59017d;
+}
+.Gitsco-form-button{
+    background-color: #59017d;
+    border-color: #36034b;
+    border-radius: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* ================ End of Get In Touch Page ==================*/
+/* ============== Faqs Page =============== */
+.faqsco-header{
+    background: url("../imgs/Otherback.png");
+    background-size: cover;
+}
+.faqsco-BigDiv{
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.faqsco-BigDiv p{
+   text-align: center;
+   color: #c4c4c4;
+   font-size: 14px;
+   font-family: "Avenir-Light", sans-serif;
+}
+.faqsco-BigDiv a{
+    text-align: center;
+    color: #D1AA67;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Avenir-Light", sans-serif;
+ }
+.faqsco-BigDiv h1{
+    text-align: center;
+    color: #fff;
+ }
+ .faqsco-maindiv{
+     padding-top: 100px;
+     padding-bottom: 100px;
+ }
+.faqsco-eachbox{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(63, 78, 100, 0.25);
+}
+.faqsco-eachbox h2{
+    text-align: left;
+    color: #000;
+    font-family: "Avenir-Light", sans-serif;
+    font-size: 11px;
+}
+.faqsco-eachbox span{
+    color:#59017d;
+    margin-top: 20px;
+}
+/* ================ End of Faqs Page ==================*/
+/* ================ Privacy Policy Page ==================*/
+.privsco-header{
+    background: url("../imgs/Otherback.png");
+    background-size: cover;
+}
+.privsco-BigDiv{
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.privsco-BigDiv h1{
+     text-align: center;
+     color: #fff;
+  }
+.privsco-maindiv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.privsco-maindiv h2{
+    font-family: "Avenir-Medium", sans-serif;
+}
+.privsco-maindiv h5{
+    font-size: 16px;
+    font-family: "Avenir-Medium", sans-serif;
+}
+.privsco-maindiv p{
+    font-size: 13px;
+}
+/* ================ End of Privacy Policy Page ==================*/
 @media(min-width:1400px){
     header{
         height: 750px;
@@ -379,6 +666,10 @@ footer{
     .fhsco-footer-button{
         margin: 0 auto;
     }
+    .Hittsco-footer-button{
+        margin: 0 auto;
+    }
+    
     .fhsco-peopletest-div1{
         float: none;
     }
@@ -400,16 +691,34 @@ footer{
     .fhsco-peopletest-div3{
         padding-bottom: 20px;
     }
+    .Hitbsco-switch-img{
+        float: right;
+    }
 }
 @media(max-width:800px){
     header{
         height: 450px;
+    }
+    .Hitbsco-options{
+        width: 301px;
+        margin: 0 auto;
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top:-54px;
+        border-bottom: 1px solid #c4c4c4;
     }
 }
 @media(max-width:767px){
     .navbar-nav li button{
         margin-left:10px;
     }
+    .Hitbsco-mainbody h2{
+        text-align: center;
+     }
+     .Hitbsco-mainbody p{
+       text-align: center;
+     }
 }
 @media(max-width:602px){
     .fhsco-bigtrumpodrum{
